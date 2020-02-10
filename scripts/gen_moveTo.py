@@ -1,6 +1,5 @@
 import execjs
-from encode import encode
-from encrypt import encrypt
+from scripts.encrypt import encrypt
 
 js = r'''
      var c = function (c) {

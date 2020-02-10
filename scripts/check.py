@@ -1,7 +1,6 @@
-import requests,json
-from yzm import *
-from ck import ck
-from fplx import *
+from scripts.yzm import *
+from scripts.ck import ck
+from scripts.fplx import *
 
 def check(session,fpdm,fphm,kprq,kjje,yzm,yzm_keys):
     '''
