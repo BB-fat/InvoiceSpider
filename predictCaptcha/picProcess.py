@@ -278,16 +278,17 @@ def get_aim_letters(captcha_data):
 
     change_image_channels(picpath)
     all_letters = predict_all_letter(picpath)
-    print("all:", all_letters[0])
+    # print("all:", all_letters[0])
 
     pic = Thresholding(picpath)
     pic = Denoise(pic)
     index_sequence = Cut(pic)
-    print(index_sequence)
+    # print(index_sequence)
 
     aim_letter = ""
     for i in index_sequence:
         aim_letter += all_letters[0][0][i]
+    os.remove(picpath)
     print(aim_letter)
     return aim_letter
 
