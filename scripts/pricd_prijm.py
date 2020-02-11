@@ -1,6 +1,6 @@
 import execjs
-from encrypt import encrypt
-from gen_moveTo import moveTo
+from scripts.encrypt import encrypt
+from scripts.gen_moveTo import moveTo
 
 js = r'''
     var o = function (e) {

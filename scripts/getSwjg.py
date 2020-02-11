@@ -227,7 +227,7 @@ def getSwjg(fpdm, ckflag):
     for city in citys:
         if dqdm == city["code"]:
             swjginfo.append(city["sfmc"])
-            swjginfo.append(city["Ip"] + "/WebQuery")
+            swjginfo.append(city["Ip"] + "/NWebQuery")
             swjginfo.append(dqdm)
             break
     return swjginfo

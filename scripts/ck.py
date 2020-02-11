@@ -1,8 +1,6 @@
-import execjs
-from encode import encode
-from encrypt import encrypt
-from gen_moveTo import *
-from pricd_prijm import *
+from scripts.encode import encode
+from scripts.gen_moveTo import *
+from scripts.pricd_prijm import *
 
 js = '''
         var e, r = function (n, r) {
