@@ -5,7 +5,7 @@ from scripts.check import check
 import time
 
 
-def checkInvoice(fpdm, fphm, kprq, kjje):
+def checkInvoice(fpdm: str, fphm: str, kprq: str, kjje: str):
     # res = None
     # while res is None or res.get("key1") != "001":
     yzm_keys, s = getYzmXx('V2.0.01_001', fpdm, fphm)
@@ -23,4 +23,5 @@ if __name__ == "__main__":
         res = checkInvoice('011001900411', '61636940', "20190929", "712285")
         if res["key1"] == "001" or res["key1"] == "002":
             success += 1
-        print("序号:%d\t平均用时:%.2f\t识别率:%.2f" % (count,(time.time() - t0) / count,(float(success) / count) * 100))
+        print("序号:%d\t平均用时:%.2f\t识别率:%.2f" %
+              (count, (time.time() - t0) / count, (float(success) / count) * 100))

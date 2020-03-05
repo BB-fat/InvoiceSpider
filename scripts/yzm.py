@@ -12,7 +12,7 @@ def showTime():
     return str(int(t*1000))
 
 
-def getYzmXx(VVV, fpdm, fphmyzm):
+def getYzmXx(VVV: str, fpdm: str, fphmyzm: str):
     '''
     VVV:系统版本号
     fpdm：发票代码
