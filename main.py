@@ -5,10 +5,13 @@ from scripts.check import check
 import time
 
 
+VERSION = 'V2.0.02_002'
+
+
 def checkInvoice(fpdm: str, fphm: str, kprq: str, kjje: str):
     # res = None
     # while res is None or res.get("key1") != "001":
-    yzm_keys, s = getYzmXx('V2.0.01_001', fpdm, fphm)
+    yzm_keys, s = getYzmXx(VERSION, fpdm, fphm)
     yzm = get_aim_letters(yzm_keys)
     res = check(s, fpdm, fphm, kprq, kjje, yzm, yzm_keys)
     return res

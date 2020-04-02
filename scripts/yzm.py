@@ -50,4 +50,4 @@ def getYzmXx(VVV: str, fpdm: str, fphmyzm: str):
 
 
 if __name__ == "__main__":
-    print(getYzmXx('V2.0.01_001', '011001900411', '61636940')[0])
+    print(getYzmXx('V2.0.02_002', '011001900411', '61636940')[0])
