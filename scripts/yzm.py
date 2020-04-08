@@ -9,7 +9,7 @@ import json
 
 def showTime():
     t = time.time()
-    return str(int(t*1000))
+    return str(int(t * 1000))
 
 
 def getYzmXx(VVV: str, fpdm: str, fphmyzm: str):
@@ -34,9 +34,10 @@ def getYzmXx(VVV: str, fpdm: str, fphmyzm: str):
         'publickey': ckcode(fpdm, nowtime)
     }
     s = requests.session()
-    s.headers['user-agent'] = "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36"
-    resp = s.get(url, params=param)
-    tmp = resp.text[43:-1]  # 将字符串处理一下 去掉jquery前缀
+    s.headers[
+        'user-agent'] = "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36"
+    resp = s.get(url, params=param, verify=False)
+    tmp = resp.text[43:-1]  # 去掉jquery前缀
     res = json.loads(tmp)
     if res['key4'] == "00":
         res['key4'] = "black"
@@ -50,4 +51,8 @@ def getYzmXx(VVV: str, fpdm: str, fphmyzm: str):
 
 
 if __name__ == "__main__":
-    print(getYzmXx('V2.0.02_002', '011001900411', '61636940')[0])
+    # print(getYzmXx('V2.0.02_002', '011001900411', '61636940'))
+    # print(getYzmXx('V2.0.02_002', '012001900311', '44977519'))
+    # print(getYzmXx('V2.0.02_002', '3300193130', '32915412'))
+    print(getYzmXx('V2.0.02_002', '021002000111', '43465599'))
+    # '3300193130', '32915412', '20200324', '6017.7'

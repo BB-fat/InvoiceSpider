@@ -231,3 +231,6 @@ def getSwjg(fpdm, ckflag):
             swjginfo.append(dqdm)
             break
     return swjginfo
+
+if __name__=="__main__":
+    print(getSwjg("012001900311",0))
