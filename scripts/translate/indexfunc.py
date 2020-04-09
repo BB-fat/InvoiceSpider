@@ -52,19 +52,3 @@ var transform = function (a) {
 
 '''
 ctx = execjs.compile(script)
-
-def translate(oldFile,newFile):
-    '''
-    将indexfunc.js中混淆的部分还原
-    '''
-    s = ""
-    with open(oldFile, "r") as f:
-        s = f.read()
-    r = re.compile(r'_0x2e7e\(.*?\)')
-    res = r.findall(s)
-    for target in res:
-        change = ctx.call("transform", target.split("'")[1])
-        s = re.sub(r'_0x2e7e\(.*?\)', "'" + change + "'", s, count=1)
-        print(target,change)
-    with open(newFile,"w") as f:
-        f.write(s)
