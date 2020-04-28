@@ -67,7 +67,7 @@ function _0x4e76de(req) {
     nowtime = encrypt(nowtime + fpdm);
     // todo 解密位置
     secret1 = checkYzmQueryNormal(fpdm, fphm, secret1, nowtime, secret2, secret3);
-    var _0x429a06 = $["ccacode"]["gen"]($["ccacode"]["moveTo"](encrypt($["pricode"]['xx']($["ccacode"]["gen"](fpdm, fphm)))), _0x2c7589["dGzdk"]($["pricode"]['yy']($["ccacode"]["moveTo"]($["pricode"]['xx'](_0x2c7589["dGzdk"](_0x2c7589["oVGnu"](fpdm, secret1), nowtime)))), encode(encrypt($["pricode"]['xx'](encode(_0x2c7589["lSyUk"](_0x2c7589["lSyUk"]($["pricode"]['xx'](secret1), fphm), encode(nowtime))))))))["toUpperCase"]();
+    var _0x429a06 = gen($["ccacode"]["moveTo"](encrypt(xx(gen(fpdm, fphm)))), _0x2c7589["dGzdk"](yy($["ccacode"]["moveTo"](xx(_0x2c7589["dGzdk"](_0x2c7589["oVGnu"](fpdm, secret1), nowtime)))), encode(encrypt(xx(encode(_0x2c7589["lSyUk"](_0x2c7589["lSyUk"](xx(secret1), fphm), encode(nowtime))))))))["toUpperCase"]();
     if (!_0x2c7589["HpCPm"](_0x5cc490)) {
         if (_0x2c7589["ChCfa"](_0x2c7589["hUGyP"], _0x2c7589["hUGyP"])) {
             var _0x4e4044 = fn.apply(context, arguments);
@@ -267,7 +267,7 @@ function _0x43ac1c(_0x19687f) {
                 }
                 if (_0x2c7589["ozQzS"](_0x264de5, _0xe3615e)) {
                     if (_0x2c7589["QDyiY"](_0x2c7589["zPIwS"], _0x2c7589["rVazb"])) {
-                        return _0x2c7589["lSyUk"](_0x2c7589["SSEIf"](encrypt(_0x2c7589["uAjBa"](_0x2c7589["uAjBa"](_0x448c7e["length"], $["pricode"]['xx'](_0x2c7589["uAjBa"](_0x2c7589["uAjBa"](_0xe3615e, _0x448c7e), _0x274f52))), _0x448c7e)), $["ccacode"]["gen"](_0x2c7589["uAjBa"]($["pricode"]['yy'](_0x2c7589["HVzsG"](_0x947809, _0x44dfd8)), ''), _0x2c7589["HVzsG"](_0xe3615e["length"], _0x44dfd8))), $["ccacode"]["gen"](_0xe3615e, _0x2c7589["TVTXa"](_0x448c7e, _0x124465))["toUpperCase"]());
+                        return _0x2c7589["lSyUk"](_0x2c7589["SSEIf"](encrypt(_0x2c7589["uAjBa"](_0x2c7589["uAjBa"](_0x448c7e["length"], xx(_0x2c7589["uAjBa"](_0x2c7589["uAjBa"](_0xe3615e, _0x448c7e), _0x274f52))), _0x448c7e)), gen(_0x2c7589["uAjBa"](yy(_0x2c7589["HVzsG"](_0x947809, _0x44dfd8)), ''), _0x2c7589["HVzsG"](_0xe3615e["length"], _0x44dfd8))), gen(_0xe3615e, _0x2c7589["TVTXa"](_0x448c7e, _0x124465))["toUpperCase"]());
                     } else {
                         _0xe3615e = _0x55db59;
                     }
@@ -292,7 +292,7 @@ function _0x43ac1c(_0x19687f) {
         _0x309cf1 = encode(encrypt(_0x947809));
         _0x124465 = encrypt(_0x2c7589["fxjUu"](_0x2c7589["fxjUu"](_0x124465, _0x44dfd8), _0x309cf1));
         _0x124465 = $["checkVatQueryNormal"](_0x947809, _0xe3615e, _0x274f52, _0x124465, _0x44dfd8, _0x309cf1);
-        var _0x448c7e = $["ccacode"]["gen"]($["ccacode"]["moveTo"](encrypt($["pricode"]['xx']($["ccacode"]["gen"](_0x947809, _0xe3615e)))), _0x2c7589["rGxYq"]($["pricode"]['yy']($["ccacode"]["moveTo"]($["pricode"]['xx'](_0x2c7589["rGxYq"](_0x2c7589["sRukE"](_0x947809, _0x274f52), _0x124465)))), encode(encrypt($["pricode"]['xx'](encode(_0x2c7589["sRukE"](_0x2c7589["sRukE"]($["pricode"]['xx'](_0x274f52), _0xe3615e), encode(_0x124465))))))))["toUpperCase"]();
+        var _0x448c7e = gen($["ccacode"]["moveTo"](encrypt(xx(gen(_0x947809, _0xe3615e)))), _0x2c7589["rGxYq"](yy($["ccacode"]["moveTo"](xx(_0x2c7589["rGxYq"](_0x2c7589["sRukE"](_0x947809, _0x274f52), _0x124465)))), encode(encrypt(xx(encode(_0x2c7589["sRukE"](_0x2c7589["sRukE"](xx(_0x274f52), _0xe3615e), encode(_0x124465))))))))["toUpperCase"]();
         if (!_0x2c7589["HpCPm"](_0x5cc490)) {
             if (_0x2c7589["QDyiY"](_0x2c7589["hRYCl"], _0x2c7589["fyHph"])) {
                 for (_0xedf4bb = 0x0; _0x2c7589["aDjxG"](_0xedf4bb, this["elements"]["length"]); _0xedf4bb++) {
@@ -323,7 +323,7 @@ function _0x51f8e9(_0x1e02cb, _0x5306ee, _0x476212, _0xf830da, _0x4e0825) {
         while (!![]) {
             switch (_0x5695f6[_0x1757c3++]) {
                 case '0':
-                    _0x4e0825 = encrypt(_0x2c7589["XXJfD"](encrypt($["ccacode"]["moveTo"]($["pricode"]['xx'](_0x2c7589["iVLVV"](encode(_0x2c7589["iVLVV"](_0x5306ee, _0x476212)), $["ccacode"]["gen"](_0x5306ee, _0x4e0825))))), $["ccacode"]["gen"]($["pricode"]['xx'](encode(_0x1e02cb)), _0x2c7589["iVLVV"]($["pricode"]['yy'](encrypt(_0xf830da["toUpperCase"]())), ''))))["toUpperCase"]();
+                    _0x4e0825 = encrypt(_0x2c7589["XXJfD"](encrypt($["ccacode"]["moveTo"](xx(_0x2c7589["iVLVV"](encode(_0x2c7589["iVLVV"](_0x5306ee, _0x476212)), gen(_0x5306ee, _0x4e0825))))), gen(xx(encode(_0x1e02cb)), _0x2c7589["iVLVV"](yy(encrypt(_0xf830da["toUpperCase"]())), ''))))["toUpperCase"]();
                     continue;
                 case '1':
                     _0x1e02cb = encrypt(_0x2c7589["pIlwr"](_0x2c7589["pIlwr"](_0x476212, _0xf830da), _0x4e0825));
@@ -1001,26 +1001,26 @@ var checkYzmQueryNormal = function (fpdm, fphm, secret1, nowtime, secret2, secre
     var _0x147c5d = "5|3|2|0|6|4|1".split('|'), i = 0;
     while (!![]) {
         switch (_0x147c5d[i++]) {
+            // todo 将几个函数分离
             case'0':
-                // todo 解密位置
-                nowtime =_0x330953["iwxze"](_0x330953["iwxze"](_0x57a706["pricode"]["encrypt"](_0x330953["iwxze"](_0x330953["XWHNn"](secret3["length"], _0x57a706["pricode"]['xx'](_0x330953["XWHNn"](_0x330953["XWHNn"](fphm, secret3), secret1))), secret3)), _0x57a706["ccacode"]["gen"](_0x330953["kJzWJ"](_0x57a706["pricode"]['yy'](_0x330953["ESSlg"](fpdm, secret2)), ''), _0x330953["aNGFU"](fphm["length"], secret2))), _0x57a706["ccacode"]["gen"](fphm, _0x330953["ouPrp"](secret3, nowtime))["toUpperCase"]());
+                nowtime = _0x330953["iwxze"](_0x330953["iwxze"](encrypt(_0x330953["iwxze"](_0x330953["XWHNn"](secret3["length"], xx(_0x330953["XWHNn"](_0x330953["XWHNn"](fphm, secret3), secret1))), secret3)), gen(_0x330953["kJzWJ"](yy(_0x330953["ESSlg"](fpdm, secret2)), ''), _0x330953["aNGFU"](fphm["length"], secret2))), gen(fphm, secret3 + nowtime)["toUpperCase"]());
                 continue;
             case'1':
-                return _0x330953["DMVKq"](_0x330953["xRmqD"](_0x57a706["pricode"]["encrypt"](_0x330953["KUWuT"](_0x330953["KUWuT"](_0x57a706['cs']["encode"](_0x330953["KUWuT"](fphm, _0x57a706["ccacode"]["moveTo"](_0x57a706["pricode"]["encrypt"](_0x330953["KEVBk"](_0x330953["KEVBk"](_0x330953["KEVBk"](fpdm, secret2["length"]), nowtime), nowtime["length"]))))), _0x57a706["pricode"]['xx'](_0x330953["QNuXW"](fphm, secret3))), secret3)), _0x57a706["ccacode"]["gen"](_0x57a706["pricode"]['xx'](_0x330953["hWaEb"](fpdm, secret3)), _0x57a706["pricode"]["encrypt"](nowtime))), _0x57a706["pricode"]["encrypt"](_0x330953["hWaEb"](secret1, secret3))["toUpperCase"]());
+                return _0x330953["DMVKq"](_0x330953["xRmqD"](encrypt(_0x330953["KUWuT"](_0x330953["KUWuT"]($['cs']["encode"](_0x330953["KUWuT"](fphm, $["ccacode"]["moveTo"](encrypt(_0x330953["KEVBk"](_0x330953["KEVBk"](_0x330953["KEVBk"](fpdm, secret2["length"]), nowtime), nowtime["length"]))))), xx(_0x330953["QNuXW"](fphm, secret3))), secret3)), gen(xx(_0x330953["hWaEb"](fpdm, secret3)), encrypt(nowtime))), encrypt(_0x330953["hWaEb"](secret1, secret3))["toUpperCase"]());
             case'2':
-                secret1 = _0x57a706["hxxc"](fpdm, fphm, secret1, nowtime, secret2, secret3);
+                secret1 = $["hxxc"](fpdm, fphm, secret1, nowtime, secret2, secret3);
                 continue;
             case'3':
-                fphm = _0x57a706["hxxb"](fpdm, fphm, secret1, nowtime, secret2, secret3);
+                fphm = $["hxxb"](fpdm, fphm, secret1, nowtime, secret2, secret3);
                 continue;
             case'4':
-                secret3 = _0x57a706["hxxd"](fpdm, fphm, secret1, nowtime, secret2, fpdm);
+                secret3 = $["hxxd"](fpdm, fphm, secret1, nowtime, secret2, fpdm);
                 continue;
             case'5':
-                fpdm = _0x57a706["hxxa"](fpdm, fphm, secret1);
+                fpdm = $["hxxa"](fpdm, fphm, secret1);
                 continue;
             case'6':
-                secret2 = _0x57a706["hxxe"](fpdm, fphm, secret1, nowtime, secret2, secret3);
+                secret2 = $["hxxe"](fpdm, fphm, secret1, nowtime, secret2, secret3);
                 continue;
         }
         break;
@@ -1624,3 +1624,104 @@ var encode_t = function (r, t) {
         }
         return c.join("")
     };
+
+var gen = function (fphm, secret3_nowtime) {
+    var _0x26992a = {
+        'DYOOF': function (_0x333d4e, _0x44f5e2) {
+            return _0x330953["QOgTP"](_0x333d4e, _0x44f5e2);
+        }, 'jnQIV': function (_0x43b91f, _0xa8a09d) {
+            return _0x330953["QOgTP"](_0x43b91f, _0xa8a09d);
+        }, 'EfOaB': function (_0x5f0f37, _0x38f8d2) {
+            return _0x330953["htdHA"](_0x5f0f37, _0x38f8d2);
+        }, 'yoQBY': _0x330953["SFCdM"]
+    };
+    var fphm = fphm["trim"]();
+    var fphm_length = fphm["trim"]()["length"];
+    var _0x304a50 = encrypt(fphm);
+    var _0x4a50c6 = encrypt(fphm) + secret3_nowtime;
+    var i, _0x1a2173, _0x8911d9;
+    _0x1a2173 = new Array();
+    _0x1a2173[0x0] = "ff8080815ed2f53b015f27c2b7b9783e";
+    _0x1a2173[0x1] = "402880bd5c76166f015c9041698e5099";
+    _0x1a2173[0x2] = "402880bd5c76101f015c903ee811504e";
+    for (i = 0x0; i < _0x1a2173["length"]; ++i) {
+        _0x8911d9 = _0x1a2173[i];
+    }
+    return encrypt(_0x304a50 + _0x4a50c6 + _0x8911d9)["toUpperCase"]();
+}
+
+var xx = function (_0x1fb7cf) {
+    if (_0x1fb7cf["length"] >= 0xc) {
+        return _0x1fb7cf['substring'](0x0, 0xb);
+    } else if (_0x1fb7cf['length']== 0x1) {
+            return _0x1fb7cf;
+    } else {
+        return _0x1fb7cf['substring'](0x0, 0x2);
+    }
+}
+
+var yy = function (_0x18e9e1) {
+    return _0x18e9e1["length"] + _0x18e9e1["length"] * 0x6;
+}
+
+// 以下是moveTo相关函数
+var moveTo_c = function (_0x46a113) {
+    var _0x103ecd = {
+        'HfGKp': _0x330953["LSrnF"], 'sHJOG': function (_0x1a7d98, _0x108cb5) {
+            return _0x330953["ICQEs"](_0x1a7d98, _0x108cb5);
+        }, 'SZHCC': function (_0x25ff45, _0x2c7289) {
+            return _0x330953["oStgz"](_0x25ff45, _0x2c7289);
+        }, 'oXlME': function (_0x2d189f, _0x88eab1) {
+            return _0x330953["Trnuj"](_0x2d189f, _0x88eab1);
+        }
+    };
+    var encoderchars = "7c3db032ad9cb0e7d4155ddffcbdd09095f2095c5dc406750fb99d3557d4723b";
+    var _0x431029, _0xd40040, _0x44a147;
+    var _0xdc8282, _0x4b2495, _0x2379b4;
+    var _0x532f30;
+    _0x44a147 = _0x46a113["length"];
+    _0xd40040 = 0x0;
+    _0x431029 = '';
+    while (_0xd40040 < _0x44a147) {
+        _0xdc8282 = _0x330953["fZrWV"](_0x46a113["charCodeAt"](_0xd40040++), 0xff);
+        if (_0x330953["QwJZM"](_0xd40040, _0x44a147)) {
+            if (_0x330953["WwkLl"](_0x330953["XGJWX"], _0x330953["XGJWX"])) {
+                _0x431029 += encoderchars["charAt"](_0x330953["dRZTa"](_0xdc8282, 0x2));
+                _0x431029 += encoderchars["charAt"](_0x330953["JfwGr"](_0x330953["fZrWV"](_0xdc8282, 0x3), 0x4));
+                _0x431029 += '==';
+                break;
+            } else {
+                b = ds;
+            }
+        }
+        _0x4b2495 = _0x46a113["charCodeAt"](_0xd40040++);
+        if (_0x330953["QwJZM"](_0xd40040, _0x44a147)) {
+            if (_0x330953["isYMm"](_0x330953["VDlMX"], _0x330953["VDlMX"])) {
+                _0x431029 += encoderchars["charAt"](_0x330953["dRZTa"](_0xdc8282, 0x2));
+                _0x431029 += encoderchars["charAt"](_0x330953["pZTBa"](_0x330953["Gnrmu"](_0x330953["maAPi"](_0xdc8282, 0x3), 0x4), _0x330953["dRZTa"](_0x330953["maAPi"](_0x4b2495, 0xf0), 0x4)));
+                _0x431029 += encoderchars["charAt"](_0x330953["Gnrmu"](_0x330953["maAPi"](_0x4b2495, 0xf), 0x2));
+                _0x431029 += '=';
+                break;
+            } else {
+                self["receiveEvent"](_0x103ecd["HfGKp"], null);
+            }
+        }
+        _0x2379b4 = _0x46a113["charCodeAt"](_0xd40040++);
+        _0x431029 += encoderchars["charAt"](_0x330953["dRZTa"](_0xdc8282, 0x2));
+        _0x532f30 = _0x330953["maAPi"](_0xdc8282, 0x3);
+        _0x532f30 = _0x330953["GtHyF"](_0x330953["rBWzD"](_0xdc8282, 0x3), 0x4);
+        _0x532f30 = _0x330953["IxLPh"](_0x4b2495, 0xf0);
+        _0x532f30 = _0x330953["kaMoe"](_0x330953["IxLPh"](_0x4b2495, 0xf0), 0x4);
+        _0x532f30 = _0x330953["CJhgW"](_0x330953["WurUS"](_0x330953["IxLPh"](_0xdc8282, 0x3), 0x4), _0x330953["kaMoe"](_0x330953["IxLPh"](_0x4b2495, 0xf0), 0x4));
+        _0x431029 += encoderchars["charAt"](_0x330953["AatBj"](_0x330953["oJDFF"](_0x330953["lXdui"](_0xdc8282, 0x3), 0x4), _0x330953["kaMoe"](_0x330953["lXdui"](_0x4b2495, 0xf0), 0x4)));
+        _0x431029 += encoderchars["charAt"](_0x330953["AatBj"](_0x330953["bYTQZ"](_0x330953["KLTjl"](_0x4b2495, 0xf), 0x2), _0x330953["kaMoe"](_0x330953["KBAli"](_0x2379b4, 0xc0), 0x6)));
+        _0x431029 += encoderchars["charAt"](_0x330953["KBAli"](_0x2379b4, 0x3f));
+    }
+    var _0x38e488 = 0x0;
+
+    return _0x330953["uKZvQ"](_0x431029, _0x38e488);
+}
+
+var moveTo=function(n){
+    encrypt(moveTo_c(n))
+}

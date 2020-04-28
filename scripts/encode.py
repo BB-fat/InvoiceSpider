@@ -33,4 +33,4 @@ def encode(r):
     return ctx.call("encode",r)
 
 if __name__=="__main__":
-    print(encode("rhrewrchb"))
+    print(encode("rhlegdchb"))
