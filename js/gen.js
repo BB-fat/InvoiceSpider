@@ -1,14 +1,16 @@
-var gen = function (fphm, secret3_nowtime) {
-    var fphm = fphm["trim"]();
-    var _0x304a50 = encrypt(fphm);
-    var _0x4a50c6 = encrypt(fphm) + secret3_nowtime;
-    var i, _0x1a2173, _0x8911d9;
-    _0x1a2173 = new Array();
-    _0x1a2173[0x0] = "ff8080815ed2f53b015f27c2b7b9783e";
-    _0x1a2173[0x1] = "402880bd5c76166f015c9041698e5099";
-    _0x1a2173[0x2] = "402880bd5c76101f015c903ee811504e";
-    for (i = 0x0; i < _0x1a2173["length"]; ++i) {
-        _0x8911d9 = _0x1a2173[i];
+var gen = function (_0x4faf23, _0x5bda89) {
+    _0x4faf23 = _0x35d3d6["ydkEJ"](_0x4faf23, '');
+    var _0x4753cf = _0x4faf23["trim"]();
+    var _0x4753cf = _0x4753cf["trim"]()["length"];
+    var _0x15635b = encrypt(_0x4faf23);
+    var _0x103d3d = _0x35d3d6["PBwfw"](encrypt(_0x4faf23), _0x5bda89);
+    var _0x53bc93, _0x3dbfac, _0x2e7869;
+    _0x3dbfac = new Array();
+    _0x3dbfac[0x0] = _0x35d3d6['ZKPdu'];
+    _0x3dbfac[0x1] = '402880bd5c76166f015c9041698e5099';
+    _0x3dbfac[0x2] = _0x35d3d6["JLtgl"];
+    for (_0x53bc93 = 0x0; _0x35d3d6["IFFFB"](_0x53bc93, _0x3dbfac["length"]); ++_0x53bc93) {
+        _0x2e7869 = _0x3dbfac[_0x53bc93];
     }
-    return encrypt(_0x304a50 + _0x4a50c6 + _0x8911d9)["toUpperCase"]();
+    return encrypt(_0x35d3d6["GENSS"](_0x15635b + _0x103d3d, _0x2e7869) + _0x4753cf)["toUpperCase"]();
 }
