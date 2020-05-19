@@ -62,4 +62,4 @@ def encrypt(n):
     return ctx.call("encrypt",n)
 
 if __name__=="__main__":
-    print(encrypt("qwer"))
+    print(encrypt("cmhsZWdkY2hi"))

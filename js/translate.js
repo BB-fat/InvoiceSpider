@@ -6,7 +6,6 @@
 
 // 注意参数最后传递参数的个数！！！
 
-// TODO 改成更灵活的传参形式
 var s = $("body").text()
 var translate = function () {
     while (1) {
