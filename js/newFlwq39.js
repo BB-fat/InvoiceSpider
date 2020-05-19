@@ -21,9 +21,10 @@ var flwq39 = function (k1, k2, yzmSj) {
     k1 = encrypt(k3 + k4 + k7);
     k7 = encrypt(encrypt(moveTo(toSub(encode(k2 + k3) + gen(k2, k7)))) + gen(toSub(encode(k1)), encrypt(k4.toUpperCase()).length * 7 + "")).toUpperCase();
     k8 = "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCXY6ndiMJE7wF0qg9emVQik7FnCBidCr8V+yG/++iN/CwV0Rfe81wnjg2I23nbLJVuT63Y1T4x2etNr58BTHuzrCRy8gj3HPaS0GSGuiN7EWI1s0Bg6N78nvStPxeinyD8Qh3Bqa+5Z014nbOqn20kW4d3efLAeI7A6yc2uMPvfwIDAQAB";
-    var jsEncrypt = new JSEncrypt();
-    jsEncrypt.setPublicKey(k8);
-    return jsEncrypt.encrypt(k7);
+    // var jsEncrypt = new JSEncrypt();
+    // jsEncrypt.setPublicKey(k8);
+    // return jsEncrypt.encrypt(k7);
+    return k7
 }
 
 function checkVatQueryNormal(k1, k2, k3, k4, k5, k6) {
