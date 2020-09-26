@@ -29,7 +29,7 @@ requests==2.22.0
 six==1.14.0
 tensorboard==1.14.0
 tensorflow-estimator==1.14.0
-tensorflow==1.14.0
+tensorflow==1.15.4
 termcolor==1.1.0
 tf2onnx==1.5.4
 tqdm==4.42.1
