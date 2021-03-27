@@ -24,7 +24,7 @@ pyusb==1.0.2
 PyVISA==1.10.1
 PyVISA-py==0.3.1
 pywin32-ctypes==0.2.0
-PyYAML==5.3
+PyYAML==5.4
 requests==2.22.0
 six==1.14.0
 tensorboard==1.14.0
