@@ -16,7 +16,7 @@ numpy==1.18.1
 onnx==1.6.0
 opencv-python==4.2.0.32
 pefile==2019.4.18
-Pillow==8.1.1
+Pillow==8.3.2
 protobuf==3.11.3
 PyInstaller==3.6
 pylab==0.0.2
